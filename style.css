@@ -1,0 +1,102 @@
+*{padding: 0; margin: 0; box sizing: border-box;
+}
+
+body{
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.nac{
+    height: 50px;
+    background: black;
+}
+
+
+.logo{
+    float:left;
+    color: white;
+    font-size: 23px;
+    margin-top: 9px;
+}
+
+.logo{
+    margin-left: 30px ;
+}
+.ti{
+    color: black;
+}
+ul li{
+  display: inline-block; 
+  padding:10px;
+  font-size:20px; 
+  font-family:raleway;
+  color: white;
+  margin-left: 30px;
+}
+ul{
+    float: right;
+}
+
+ul li:hover{
+  color:orange;
+  
+}
+.menu{
+text-decoration: none;
+color: black ;
+padding: 10px 40px;
+margin-right: 50px;
+justify-content: space-around;
+position: absolute;
+
+}
+.header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    width: 100%;
+    
+}
+.h-text{
+    max-width: 600px;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+
+.h-text h1{
+    font-size:3em ;
+    font-family: 'Libre Baskerville', serif;
+    color: black;
+    
+}
+.h-text span{
+    color:black;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+.h-text a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    background:rgb(2, 247, 247);
+    padding: 10px 20px;
+    
+    letter-spacing: 5px;
+    
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
